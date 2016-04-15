@@ -31,9 +31,23 @@
     [super drawRect:rect];
     
     CGContextRef ctx = UIGraphicsGetCurrentContext();
-    CGContextSetLineWidth(ctx, 2);
+    
+    //宽度
+    CGContextSetLineWidth(ctx, 20);
+    
+    //线的颜色
     CGContextSetStrokeColorWithColor(ctx, [UIColor redColor].CGColor);
+    
+    //填充的颜色
     CGContextSetFillColorWithColor(ctx, [UIColor purpleColor].CGColor);
+    
+    /**
+     *  线段头尾部样式
+     *  kCGLineCapButt:不绘制端点
+     *  kCGLineCapRound:圆弧
+     *  kCGLineCapSquare:直角
+     */
+    CGContextSetLineCap(ctx, kCGLineCapRound);
     
     //直线
     [self lineDrawedWihtContex:ctx beginPoint:CGPointMake(8, 72) endPoint:CGPointMake(300, 72)];
@@ -46,7 +60,10 @@
     //圆弧
     [self curveDrawedWithContex:ctx];
     CGContextStrokePath(ctx);
+    
     //圆
+    [self circleWithContexRef:ctx];
+    CGContextStrokePath(ctx);
     
     //画文字
     
@@ -72,17 +89,33 @@
 - (void)curveDrawedWithContex:(CGContextRef )ctx{
     
     CGPoint center = CGPointMake(100, 100);
-    CGFloat radius = 15;
+    CGFloat radius = 66;
 //    CGPoint bPoint = CGPointMake(center.x + radius, center.y);
 //    CGContextMoveToPoint(ctx, bPoint.x, bPoint.y);
     CGContextAddArc(ctx, center.x, center.y, radius, 0, M_PI, 0);
 }
 
-
+/**
+ *  画矩形
+ *
+ *  @param ctx ctx
+ */
 - (void)retWithContextRef:(CGContextRef )ctx{
 
     CGContextAddRect(ctx, CGRectMake(150, 150, 150, 150));
 }
 
 
+/**
+ *  画圆
+ *
+ *  @param ctx ctx
+ */
+- (void)circleWithContexRef:(CGContextRef )ctx{
+    
+//    CGContextAddArc(ctx, 200, 200, 20, 0, 2*M_PI, 0);
+    CGContextAddEllipseInRect(ctx, CGRectMake(200, 200, 100, 100));
+
+//    CGContextClosePath(ctx);
+}
 @end
