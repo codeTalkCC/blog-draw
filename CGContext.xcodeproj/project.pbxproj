@@ -15,6 +15,7 @@
 		B5C1A0881CBF91D400DAAE2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C1A0861CBF91D400DAAE2E /* LaunchScreen.storyboard */; };
 		B5C1A0931CBF91D400DAAE2E /* CGContextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1A0921CBF91D400DAAE2E /* CGContextTests.m */; };
 		B5C1A09E1CBF91D400DAAE2E /* CGContextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1A09D1CBF91D400DAAE2E /* CGContextUITests.m */; };
+		B5C1A0AD1CBF99DB00DAAE2E /* showDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1A0AC1CBF99DB00DAAE2E /* showDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B5C1A0991CBF91D400DAAE2E /* CGContextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGContextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C1A09D1CBF91D400DAAE2E /* CGContextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGContextUITests.m; sourceTree = "<group>"; };
 		B5C1A09F1CBF91D400DAAE2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C1A0AB1CBF99DB00DAAE2E /* showDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showDemo.h; sourceTree = "<group>"; };
+		B5C1A0AC1CBF99DB00DAAE2E /* showDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				B5C1A07C1CBF91D400DAAE2E /* AppDelegate.m */,
 				B5C1A07E1CBF91D400DAAE2E /* ViewController.h */,
 				B5C1A07F1CBF91D400DAAE2E /* ViewController.m */,
+				B5C1A0AB1CBF99DB00DAAE2E /* showDemo.h */,
+				B5C1A0AC1CBF99DB00DAAE2E /* showDemo.m */,
 				B5C1A0811CBF91D400DAAE2E /* Main.storyboard */,
 				B5C1A0841CBF91D400DAAE2E /* Assets.xcassets */,
 				B5C1A0861CBF91D400DAAE2E /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				B5C1A0801CBF91D400DAAE2E /* ViewController.m in Sources */,
 				B5C1A07D1CBF91D400DAAE2E /* AppDelegate.m in Sources */,
 				B5C1A07A1CBF91D400DAAE2E /* main.m in Sources */,
+				B5C1A0AD1CBF99DB00DAAE2E /* showDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
