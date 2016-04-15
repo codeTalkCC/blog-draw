@@ -74,6 +74,11 @@
     CGContextStrokePath(ctx);
     
     //画文字
+    NSString *string = @"这是一个绘制图形的demo";
+    NSMutableDictionary *dic = [[NSMutableDictionary alloc]init];
+    [dic setObject:[UIColor blueColor] forKey:NSForegroundColorAttributeName];
+    [dic setObject:[UIFont systemFontOfSize:22] forKey:NSFontAttributeName];
+    [string drawInRect:CGRectMake(0, 400, 300, 30) withAttributes:dic];
     
     
    
