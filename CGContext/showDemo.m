@@ -66,6 +66,7 @@
     CGContextStrokePath(ctx);
     
     //画文字
+    //test
     
    
 }
