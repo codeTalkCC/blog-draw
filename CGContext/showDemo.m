@@ -49,13 +49,21 @@
      */
     CGContextSetLineCap(ctx, kCGLineCapRound);
     
+    /**
+     *  拐点样式
+     * kCGLineJoinMiter:直角
+     * kCGLineJoinRound:圆弧
+     * kCGLineJoinBevel:斜角
+     */
+    CGContextSetLineJoin(ctx, kCGLineJoinBevel);
+    
     //直线
     [self lineDrawedWihtContex:ctx beginPoint:CGPointMake(8, 72) endPoint:CGPointMake(300, 72)];
     CGContextStrokePath(ctx);
 
     //矩形
     [self retWithContextRef:ctx];
-    CGContextFillPath(ctx);
+    CGContextStrokePath(ctx);
     
     //圆弧
     [self curveDrawedWithContex:ctx];
@@ -66,7 +74,7 @@
     CGContextStrokePath(ctx);
     
     //画文字
-    //test test test 
+    
     
    
 }
