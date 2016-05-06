@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B570D20F1CDB6EF50039B5E3 /* showDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = B570D2091CDB6EF50039B5E3 /* showDemo.m */; };
+		B570D2101CDB6EF50039B5E3 /* CustomViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B570D20C1CDB6EF50039B5E3 /* CustomViewVC.m */; };
+		B570D2111CDB6EF50039B5E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B570D20E1CDB6EF50039B5E3 /* ViewController.m */; };
+		B570D2141CDB6F190039B5E3 /* CustomLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B570D2131CDB6F190039B5E3 /* CustomLayerVC.m */; };
+		B570D2171CDB6F2A0039B5E3 /* LayerDelegateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B570D2161CDB6F2A0039B5E3 /* LayerDelegateVC.m */; };
+		B570D21A1CDC39000039B5E3 /* pentacleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B570D2191CDC39000039B5E3 /* pentacleLayer.m */; };
+		B570D21D1CDC3A180039B5E3 /* pentavleView.m in Sources */ = {isa = PBXBuildFile; fileRef = B570D21C1CDC3A180039B5E3 /* pentavleView.m */; };
 		B5C1A07A1CBF91D400DAAE2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1A0791CBF91D400DAAE2E /* main.m */; };
 		B5C1A07D1CBF91D400DAAE2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1A07C1CBF91D400DAAE2E /* AppDelegate.m */; };
-		B5C1A0801CBF91D400DAAE2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1A07F1CBF91D400DAAE2E /* ViewController.m */; };
 		B5C1A0831CBF91D400DAAE2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C1A0811CBF91D400DAAE2E /* Main.storyboard */; };
 		B5C1A0851CBF91D400DAAE2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C1A0841CBF91D400DAAE2E /* Assets.xcassets */; };
 		B5C1A0881CBF91D400DAAE2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C1A0861CBF91D400DAAE2E /* LaunchScreen.storyboard */; };
 		B5C1A0931CBF91D400DAAE2E /* CGContextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1A0921CBF91D400DAAE2E /* CGContextTests.m */; };
 		B5C1A09E1CBF91D400DAAE2E /* CGContextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1A09D1CBF91D400DAAE2E /* CGContextUITests.m */; };
-		B5C1A0AD1CBF99DB00DAAE2E /* showDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1A0AC1CBF99DB00DAAE2E /* showDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +41,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B570D2081CDB6EF50039B5E3 /* showDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showDemo.h; sourceTree = "<group>"; };
+		B570D2091CDB6EF50039B5E3 /* showDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showDemo.m; sourceTree = "<group>"; };
+		B570D20B1CDB6EF50039B5E3 /* CustomViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewVC.h; sourceTree = "<group>"; };
+		B570D20C1CDB6EF50039B5E3 /* CustomViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewVC.m; sourceTree = "<group>"; };
+		B570D20D1CDB6EF50039B5E3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B570D20E1CDB6EF50039B5E3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B570D2121CDB6F190039B5E3 /* CustomLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLayerVC.h; sourceTree = "<group>"; };
+		B570D2131CDB6F190039B5E3 /* CustomLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayerVC.m; sourceTree = "<group>"; };
+		B570D2151CDB6F2A0039B5E3 /* LayerDelegateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerDelegateVC.h; sourceTree = "<group>"; };
+		B570D2161CDB6F2A0039B5E3 /* LayerDelegateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerDelegateVC.m; sourceTree = "<group>"; };
+		B570D2181CDC39000039B5E3 /* pentacleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pentacleLayer.h; sourceTree = "<group>"; };
+		B570D2191CDC39000039B5E3 /* pentacleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pentacleLayer.m; sourceTree = "<group>"; };
+		B570D21B1CDC3A180039B5E3 /* pentavleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pentavleView.h; sourceTree = "<group>"; };
+		B570D21C1CDC3A180039B5E3 /* pentavleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pentavleView.m; sourceTree = "<group>"; };
 		B5C1A0751CBF91D400DAAE2E /* CGContext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGContext.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C1A0791CBF91D400DAAE2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5C1A07B1CBF91D400DAAE2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B5C1A07C1CBF91D400DAAE2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B5C1A07E1CBF91D400DAAE2E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B5C1A07F1CBF91D400DAAE2E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B5C1A0821CBF91D400DAAE2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5C1A0841CBF91D400DAAE2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5C1A0871CBF91D400DAAE2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,8 +69,6 @@
 		B5C1A0991CBF91D400DAAE2E /* CGContextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CGContextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C1A09D1CBF91D400DAAE2E /* CGContextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGContextUITests.m; sourceTree = "<group>"; };
 		B5C1A09F1CBF91D400DAAE2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5C1A0AB1CBF99DB00DAAE2E /* showDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showDemo.h; sourceTree = "<group>"; };
-		B5C1A0AC1CBF99DB00DAAE2E /* showDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +96,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B570D2071CDB6EF50039B5E3 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				B570D2081CDB6EF50039B5E3 /* showDemo.h */,
+				B570D2091CDB6EF50039B5E3 /* showDemo.m */,
+				B570D2181CDC39000039B5E3 /* pentacleLayer.h */,
+				B570D2191CDC39000039B5E3 /* pentacleLayer.m */,
+				B570D21B1CDC3A180039B5E3 /* pentavleView.h */,
+				B570D21C1CDC3A180039B5E3 /* pentavleView.m */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		B570D20A1CDB6EF50039B5E3 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B5C1A0811CBF91D400DAAE2E /* Main.storyboard */,
+				B570D20B1CDB6EF50039B5E3 /* CustomViewVC.h */,
+				B570D20C1CDB6EF50039B5E3 /* CustomViewVC.m */,
+				B570D20D1CDB6EF50039B5E3 /* ViewController.h */,
+				B570D20E1CDB6EF50039B5E3 /* ViewController.m */,
+				B570D2121CDB6F190039B5E3 /* CustomLayerVC.h */,
+				B570D2131CDB6F190039B5E3 /* CustomLayerVC.m */,
+				B570D2151CDB6F2A0039B5E3 /* LayerDelegateVC.h */,
+				B570D2161CDB6F2A0039B5E3 /* LayerDelegateVC.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
 		B5C1A06C1CBF91D400DAAE2E = {
 			isa = PBXGroup;
 			children = (
@@ -104,16 +148,9 @@
 		B5C1A0771CBF91D400DAAE2E /* CGContext */ = {
 			isa = PBXGroup;
 			children = (
-				B5C1A07B1CBF91D400DAAE2E /* AppDelegate.h */,
-				B5C1A07C1CBF91D400DAAE2E /* AppDelegate.m */,
-				B5C1A07E1CBF91D400DAAE2E /* ViewController.h */,
-				B5C1A07F1CBF91D400DAAE2E /* ViewController.m */,
-				B5C1A0AB1CBF99DB00DAAE2E /* showDemo.h */,
-				B5C1A0AC1CBF99DB00DAAE2E /* showDemo.m */,
-				B5C1A0811CBF91D400DAAE2E /* Main.storyboard */,
+				B570D2071CDB6EF50039B5E3 /* CustomUI */,
+				B570D20A1CDB6EF50039B5E3 /* UIViewController */,
 				B5C1A0841CBF91D400DAAE2E /* Assets.xcassets */,
-				B5C1A0861CBF91D400DAAE2E /* LaunchScreen.storyboard */,
-				B5C1A0891CBF91D400DAAE2E /* Info.plist */,
 				B5C1A0781CBF91D400DAAE2E /* Supporting Files */,
 			);
 			path = CGContext;
@@ -122,6 +159,10 @@
 		B5C1A0781CBF91D400DAAE2E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B5C1A0861CBF91D400DAAE2E /* LaunchScreen.storyboard */,
+				B5C1A0891CBF91D400DAAE2E /* Info.plist */,
+				B5C1A07B1CBF91D400DAAE2E /* AppDelegate.h */,
+				B5C1A07C1CBF91D400DAAE2E /* AppDelegate.m */,
 				B5C1A0791CBF91D400DAAE2E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -275,10 +316,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5C1A0801CBF91D400DAAE2E /* ViewController.m in Sources */,
+				B570D2171CDB6F2A0039B5E3 /* LayerDelegateVC.m in Sources */,
+				B570D2101CDB6EF50039B5E3 /* CustomViewVC.m in Sources */,
 				B5C1A07D1CBF91D400DAAE2E /* AppDelegate.m in Sources */,
+				B570D21D1CDC3A180039B5E3 /* pentavleView.m in Sources */,
+				B570D21A1CDC39000039B5E3 /* pentacleLayer.m in Sources */,
+				B570D20F1CDB6EF50039B5E3 /* showDemo.m in Sources */,
+				B570D2141CDB6F190039B5E3 /* CustomLayerVC.m in Sources */,
 				B5C1A07A1CBF91D400DAAE2E /* main.m in Sources */,
-				B5C1A0AD1CBF99DB00DAAE2E /* showDemo.m in Sources */,
+				B570D2111CDB6EF50039B5E3 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +366,7 @@
 				B5C1A0821CBF91D400DAAE2E /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		B5C1A0861CBF91D400DAAE2E /* LaunchScreen.storyboard */ = {
@@ -370,7 +417,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -409,7 +456,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -504,6 +551,7 @@
 				B5C1A0A41CBF91D400DAAE2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5C1A0A51CBF91D400DAAE2E /* Build configuration list for PBXNativeTarget "CGContextTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +560,7 @@
 				B5C1A0A71CBF91D400DAAE2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5C1A0A81CBF91D400DAAE2E /* Build configuration list for PBXNativeTarget "CGContextUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +569,7 @@
 				B5C1A0AA1CBF91D400DAAE2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
